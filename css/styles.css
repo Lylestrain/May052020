@@ -110,12 +110,13 @@ li {
 }
 
 @media screen and (max-width: 501px) {
-	body {
-		min-width: 100%;
-	}
+	
+	
 	#page {
 		background-color:fuchsia;
-		height: 400px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px ;
 	}
 	
 	.one {
@@ -123,9 +124,49 @@ li {
 		margin-left: 60%;
 	}
 
-	#page {
-		width: 60%;
-		margin: 0 auto;
-		padding: 10px ;
+	#about_me article {
+		width: 100%;
+		float: none;
 	}
+
+	body {
+		width: 100%;
+	}
+
+	#interests .wrapper {
+		margin-right: 0;
+
+	}
+
+	#contact .wrapper {
+		margin-left: 0;
+		margin-bottom: 0em;
+	}
+
+	#hobies .wrapper {
+		margin: 0 ;
+		margin-bottom: .5em;
+	}
+
+	#hobies ul {
+		text-align: center;
+	}
+
+	.wrapper {
+		border: 2px solid maroon;
+		padding-bottom: .5em;
+		margin-bottom: .5em;
+	}
+
+	#first {
+		border: 2px solid maroon;
+		padding-bottom: .5em;
+	}
+
+#first p {
+		columns:1;
+		text-align: left;
+		color: green;
+	}
+
 }
