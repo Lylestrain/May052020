@@ -1,0 +1,170 @@
+/* Reset Rule */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+	background: azure;
+
+}
+
+header {
+	height: 100px;
+	color: pink;
+	background: maroon;
+	position: relative;
+}
+
+header h1 {
+	padding-top: 1em;
+	margin-left: 10%;
+
+	color: yellow;
+}
+
+.one {
+	color: yellow;
+	
+	margin-left: 80%;
+}
+
+#page {
+	width: 80%;
+	min-width: 900px;
+	margin: 0 auto;
+	padding: 10px ;
+}
+
+#first {
+	border: 2px solid maroon;
+	padding-bottom: .5em;
+}
+
+#first p {
+	columns:4 auto;
+	color: green;
+}
+
+ h2 {
+	text-align: center;
+}
+
+#about_me {
+	padding-top: 315px ;
+}
+
+#about_me article {
+	width: 33.33%;
+	float: left;
+}
+
+footer {
+	clear: both;
+	padding-top: .5em;
+	position: relative;
+	bottom: 0px;
+}
+
+p {
+	padding: 0 .5em;
+}
+
+li {
+	list-style: none;
+}
+
+#interests .wrapper {
+	margin-right: .5em;
+}
+
+#contact .wrapper {
+	margin-left: .5em;
+}
+
+#hobies .wrapper {
+	margin: 0 .25em;
+}
+
+#hobies ul {
+	text-align: center;
+}
+
+.wrapper {
+	border: 2px solid maroon;
+	
+	padding-bottom: .5em;
+}
+
+#contact p {
+	padding-top: 18px;
+	padding-bottom: 19px;
+	text-align: center;
+}
+
+@media screen and (max-width: 935px) {
+	#page {
+		background-color:green;
+	}
+
+}
+
+@media screen and (max-width: 501px) {
+	
+	
+	#page {
+		background-color:blue;
+		max-width: 501px;
+		margin: 0 auto;
+		padding: 0px ;
+	}
+	
+	.one {
+		color: yellow;
+		margin-left: 60%;
+	}
+
+	#about_me article {
+		width: 100%;
+		float: none;
+	}
+
+	
+
+	#interests .wrapper {
+		margin-right: 0;
+
+	}
+
+	#contact .wrapper {
+		margin-left: 0;
+		margin-bottom: 0em;
+	}
+
+	#hobies .wrapper {
+		margin: 0 ;
+		margin-bottom: .5em;
+	}
+
+	#hobies ul {
+		text-align: center;
+	}
+
+	.wrapper {
+		border: 2px solid maroon;
+		padding-bottom: .5em;
+		margin-bottom: .5em;
+	}
+
+	#first {
+		border: 2px solid maroon;
+		padding-bottom: .5em;
+	}
+
+#first p {
+		columns:1;
+		text-align: left;
+		color: green;
+	}
+
+}

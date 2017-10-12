@@ -1,0 +1,238 @@
+/* Reset Rule */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+	background: rgb(250, 205, 259);
+}
+
+header {
+	color: white;
+	background: maroon;
+	border-bottom: 5px solid white;
+	margin-bottom: 5px;
+}
+
+h1 {
+	margin-left: 5%;
+}
+
+p.one {
+	margin-left: 70%;
+}
+
+#page {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: .5em;
+/*	background: white; */
+}
+
+#first_article {
+	background: white;
+	padding: .5em;
+	border-radius: .5em;
+}
+
+
+
+#first h2 {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#first p {
+	text-indent: 1em;
+}
+
+#about_me .wrapper {
+	background: white;
+	padding: .5em;
+	border-radius: .5em;
+	margin-top: .5em;
+}
+
+#interests h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#interests p {
+	text-indent: 1em;
+}
+
+#hobies h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#hobies li {
+	list-style-type: none;
+	text-align: center;
+}
+
+#contact h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#contact p {
+	text-align: center;
+}
+
+footer {
+	margin-top: .5em;
+	position: absolute;
+	bottom: left 0px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 500px) {
+	
+	*{
+	    margin: 0px;
+	    padding: 0px;
+	    border: 0px;
+	}
+
+	body {
+		background: rgb(150, 205, 259);
+	}
+
+	header {
+		height: 150px;
+		color: white;
+		background: maroon;
+		border-bottom: 5px solid white;
+		margin-bottom: 5px;
+	}
+
+	h1 {
+		padding-top: 5%;
+		margin-left: 5%;
+	}
+
+
+
+	#first p {
+		columns:2 auto;
+		text-indent: 1em;
+	}
+
+
+	#interests {
+		width: 50%;
+		float: left;
+	}
+
+	#interests .wrapper {
+		margin-right: .25em;
+	}
+
+	#hobies {
+		width: 50%;
+		float: left;
+	}
+
+	#hobies .wrapper {
+		margin-left: .25em;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+
+	#contact {
+		
+		margin-top: .25em;
+	}
+
+	#contact .wrapper {
+		
+	}
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 899px) {
+	body {
+		background: rgb(150, 205, 159);
+	}
+
+	#first p {
+		columns:3 auto;
+		text-indent: 1em;
+	}
+
+	#page {
+		
+		max-width: 900px;
+		margin: 0 auto;
+		padding-top: .5em;
+	/*	background: white; */
+	}
+
+	#about_me {
+		margin-top: 215px;
+	}
+
+
+	#interests {
+		width: 33.33%;
+		float: left;
+	}
+
+	#interests .wrapper {
+		margin-right: .4em;
+	} 
+
+	#hobies {
+		width: 33.33%;
+		float: left;
+	}
+
+	#hobies .wrapper {
+		margin-left: .2em;
+		margin-right: .2em;
+	}  
+
+	#contact {
+		margin-top: 0px;
+		width: 33.33%;
+		float: left;
+	}
+
+	#contact .wrapper {
+		margin-left: .4em;
+	}
+
+	.clearfix { 
+		display: none;
+	}
+
+	.clearfix_l {
+		clear: both;
+	}
+
+
+	footer {
+		
+	}
+
+}
